@@ -14,7 +14,7 @@ content-type: application/json
     "lastName": "Contreras",
     "email" : "jgcc26@gmail.com",
     "favoriteColor": "black",
-    "birthday": "08-08-1997"
+    "birthDay": "08-08-1997"
 }
 
 ### Update an existing user
@@ -26,9 +26,8 @@ content-type: application/json
     "lastName": "Moura",
     "email" : "erickMoura@gmail.com",
     "favoriteColor": "black",
-    "birthday": "08-08-1997" 
+    "birthDay": "08-08-1997" 
 }
 
 ### Delete an existing user
-DELETE http://localhost:3000/users/6703e497b1fd97bb0d85106f
-
+DELETE http://localhost:3000/users/673f4e08831ce9aaeead0a69

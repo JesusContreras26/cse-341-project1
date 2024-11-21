@@ -1,8 +1,8 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
-    "description": "Contacts API",
+    "title": "Contacts API",
+    "description": "This is an API use for manipulate contacts on a MongoDB Database",
     "version": "1.0.0"
   },
   "host": "cse-341-project1-ia79.onrender.com",
