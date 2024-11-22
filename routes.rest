@@ -31,3 +31,38 @@ content-type: application/json
 
 ### Delete an existing user
 DELETE http://localhost:3000/users/673f4e08831ce9aaeead0a69
+
+#######################################Testing On render##########################################
+
+### Get all users
+GET https://cse-341-project1-ia79.onrender.com/users
+
+### Get user ById
+GET https://cse-341-project1-ia79.onrender.com/users/66fb1f1c2a3cce08b1fd5fed
+
+### Create a new User
+POST https://cse-341-project1-ia79.onrender.com/users HTTP/1.1
+content-type: application/json
+
+{  
+    "firstName" :"Jesus",
+    "lastName": "Contreras",
+    "email" : "jgcc26@gmail.com",
+    "favoriteColor": "black",
+    "birthDay": "08-08-1997"
+}
+
+### Update an existing user
+PUT https://cse-341-project1-ia79.onrender.com/users/66fb1f1c2a3cce08b1fd5fed HTTP/1.1
+content-type: application/json
+
+{
+    "firstName" :"Angel",
+    "lastName": "Moura",
+    "email" : "erickMoura@gmail.com",
+    "favoriteColor": "black",
+    "birthDay": "08-08-1997" 
+}
+
+### Delete an existing user
+DELETE https://cse-341-project1-ia79.onrender.com/users/673f5e17130b58e96c43590e
